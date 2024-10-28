@@ -109,6 +109,8 @@ public class IndexingServiceImpl implements IndexingService {
             futures.add(future);
         }
 
+        indexingInProgress.set(false);
+
         return CompletableFuture.completedFuture(new IndexingResponse(true));
     }
 
