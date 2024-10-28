@@ -48,7 +48,7 @@ public class Search implements SearchService {
         query = query.toLowerCase().replaceAll(regex, " ");
         List<lemma> filteredLemmas = new ArrayList<>();
         Set<String> lemmaSet = lemmasIndexing.getLemmaSet(query);
-        double percentage = 0.7;
+        double percentage = 0.9;
         long pagesCount = site == null ? pageRepository.count() : pageRepository.countBySiteUrl(site);
         for(String lemma : lemmaSet) {
             long lemmaPageCount = lemmaRepository.countByLemma(lemma);
