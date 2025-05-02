@@ -14,7 +14,6 @@ import java.util.concurrent.CompletableFuture;
 @RequestMapping("/api")
 public class ApiController {
 
-
     private final StatisticsService statisticsService;
     private final IndexingService indexingService;
     private final SearchService searchService;
