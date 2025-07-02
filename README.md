@@ -85,7 +85,6 @@ No automated test suite included in this version. Manual testing can be performe
 - Spring Boot Documentation  
 - MySQL 8.0 Documentation
 
-## Team Members  
-- Amirkhan Akhat, 230103090, 14-P
+
 
 
